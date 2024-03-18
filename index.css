@@ -3,8 +3,11 @@
     margin: 0;
 }
 
-nav {
+.navigation {
     display: flex;
     flex-direction: row;
+}
+
+nav {
     justify-content: flex-end;
 }
