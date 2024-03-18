@@ -4,11 +4,12 @@
 }
 
 .navigation {
+    width: 100vw;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 
 nav {
-    justify-content: flex-end;
-    align-content: center;
+    align-items: center;
 }
