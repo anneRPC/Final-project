@@ -17,3 +17,7 @@ nav {
 .contact {
     display: flex;
 }
+
+.form {
+    flex-direction: column;
+}
