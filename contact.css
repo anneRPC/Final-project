@@ -13,3 +13,7 @@
 nav {
     align-items: center;
 }
+
+.contact {
+    display: flex;
+}
