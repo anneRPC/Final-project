@@ -13,3 +13,30 @@
 nav {
     align-items: center;
 }
+
+.welcome__text {
+    grid-area: intro;
+}
+
+.welcome__img {
+    grid-area: image;
+}
+
+.welcome__header {
+    grid-area: header;
+    justify-self: center;
+}
+
+.welcome__about {
+    grid-area: about;
+}
+
+.welcome {
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "intro intro image"
+        "header header header"
+        " about about about";
+}
